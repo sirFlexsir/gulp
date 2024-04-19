@@ -1,0 +1,37 @@
+// Обычный контейнер
+.container {
+  padding: 0 var(--container-padding);
+  max-width: var(--container-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+//Контейнер на всю ширину
+.container-full {
+  padding: 0 var(--container-padding);
+  max-width: 100%;
+}
+
+//Контейнеры слева и справа 50%
+.container-left-50 {
+  padding: 0 var(--container-padding);
+  max-width: 50%;
+}
+.container-right-50 {
+  padding: 0 var(--container-padding);
+  max-width: 50%;
+  margin-left: auto;
+}
+
+//Контейнер слева и право, до размера контейнера
+.container-right {
+  padding-left: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
+}
+.container-left {
+  padding-right: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
+}
+

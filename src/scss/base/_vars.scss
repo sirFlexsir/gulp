@@ -1,0 +1,25 @@
+//@include 
+
+@mixin retinaBg($image) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: $image;
+  }
+}
+
+
+:root {
+  --container-width: 1200px;
+  --container-padding: 15px;
+
+  --font-main: "Poppins", sans-serif;
+  --font-accent: "Playfair Display", serif;
+
+  --page-bg: #fff;
+  --text-color: #000;
+
+
+  --accent-color: #ac182c;
+
+}
+
+
