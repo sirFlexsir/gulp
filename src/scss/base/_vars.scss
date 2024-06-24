@@ -7,17 +7,25 @@
 }
 
 
+$laptop: 1600px;
+$tablet: 1024px;
+$tabletMedium:768px;
+$mobile:480px;
+
+
 :root {
   --container-width: 1200px;
   --container-padding: 15px;
 
   --font-main: "Poppins", sans-serif;
-  --font-accent: "Playfair Display", serif;
+  --font-weight: 400;
+  --font-size: 18px;
+
 
   --page-bg: #fff;
+
+
   --text-color: #000;
-
-
   --accent-color: #ac182c;
 
 }

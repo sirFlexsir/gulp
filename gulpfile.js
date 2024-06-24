@@ -32,7 +32,7 @@ const spriteSettings = {
 };
 
 // **************************************************************
-
+// Форирует спрайт из scv и папке img->svgicons
 export function sprite() {
   return gulp
     .src("./src/img/svgicons/**/*.svg")

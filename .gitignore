@@ -1,7 +1,6 @@
 .DS_store
 .idea/
 .idea/*
-.vscode
 *.subline*
 npm-debug.*
 
